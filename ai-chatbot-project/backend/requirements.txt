@@ -1,0 +1,17 @@
+# Flask and web server
+flask==2.3.3
+flask-cors==4.0.0
+gunicorn==21.2.0  # For production deployment
+
+# AI/ML libraries
+transformers==4.36.2
+torch==2.1.2  # Or the appropriate version for your system
+torchaudio==2.1.2  # For audio processing
+scipy==1.11.4  # For audio file handling
+
+# Audio processing
+numpy==1.26.2
+librosa==0.10.1  # Optional: for advanced audio processing
+
+# Optional: for better performance
+accelerate==0.25.0  # For faster model inference
